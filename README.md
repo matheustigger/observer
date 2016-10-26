@@ -1,3 +1,8 @@
+
+Trabalho de Engenharia de software 3
+
+Nome: Matheus Stigger
+
 # Padrão de Projeto: Observer
 
 - Observer é um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos os seus dependentes são notificados e atualizados automaticamente.
