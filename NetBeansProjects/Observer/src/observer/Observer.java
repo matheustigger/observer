@@ -1,10 +1,15 @@
 package observer;
 
-public class Observer {
-
- 
-    public static void main(String[] args) {
-        System.out.println("oi");
-    }
+/**
+ *
+ * @author Matheus
+ */
+public interface Observer {
     
+    /**
+     * Metodo que faz a notificação e recebe atualizações;
+     * @param obj 
+     */
+    public void update(Object obj);
+
 }
