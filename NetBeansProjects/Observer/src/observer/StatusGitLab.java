@@ -22,7 +22,8 @@ public class StatusGitLab implements Observable{
     
     public void addObserver(Observer obs){
         this.observers.add(obs);
-        obs.update("Obrigado por se inscrever: "+this.status);
+        obs.update(status);
+        System.out.println("----\n");
     }
     
     public void mudaStatus(String status){
@@ -40,5 +41,6 @@ public class StatusGitLab implements Observable{
         for(Observer obs : this.observers){
             obs.update(status);
         }
+        System.out.println("----\n");
     }
 }
